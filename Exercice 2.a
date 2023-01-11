@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{ 
+   float x,y,z;  
+ printf("entrer une certaine v valeur x \n"); 
+ scanf("%f",&x);  
+ printf("entrer encore une autre  valeur y \n");   
+ scanf("%f",&y);  
+  z=x; 
+  x=y;  
+  y=z;  
+  printf("les deux valeurs ont ete permutees,x=%f et y=%f desormais \n",x,y); 
+  return 0;
+}
